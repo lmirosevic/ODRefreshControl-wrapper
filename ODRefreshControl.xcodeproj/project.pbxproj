@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A5021BF1794377000381CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5021BE1794377000381CD6 /* Foundation.framework */; };
+		8A5021EB1794381400381CD6 /* ODRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5021EA1794381400381CD6 /* ODRefreshControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		8A5021BB1794377000381CD6 /* libODRefreshControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libODRefreshControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5021BE1794377000381CD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A5021C21794377000381CD6 /* ODRefreshControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ODRefreshControl-Prefix.pch"; sourceTree = "<group>"; };
+		8A5021E91794381400381CD6 /* ODRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODRefreshControl.h; path = ODRefreshControl/ODRefreshControl.h; sourceTree = "<group>"; };
+		8A5021EA1794381400381CD6 /* ODRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODRefreshControl.m; path = ODRefreshControl/ODRefreshControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,7 @@
 		8A5021C01794377000381CD6 /* ODRefreshControl */ = {
 			isa = PBXGroup;
 			children = (
+				8A5021CC179437F000381CD6 /* ODRefreshControl Source */,
 				8A5021C11794377000381CD6 /* Supporting Files */,
 			);
 			path = ODRefreshControl;
@@ -79,6 +83,15 @@
 				8A5021C21794377000381CD6 /* ODRefreshControl-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A5021CC179437F000381CD6 /* ODRefreshControl Source */ = {
+			isa = PBXGroup;
+			children = (
+				8A5021E91794381400381CD6 /* ODRefreshControl.h */,
+				8A5021EA1794381400381CD6 /* ODRefreshControl.m */,
+			);
+			path = "ODRefreshControl Source";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A5021EB1794381400381CD6 /* ODRefreshControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
